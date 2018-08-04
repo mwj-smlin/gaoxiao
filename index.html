@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--音频播放-->
+		<!--<audio src="img/feiqiu.mp3"></audio>
+		
+		<button class="fuge">副歌</button>
+		<button class="play">播放/暂停</button>
+		<button class="muted">静音/不静音</button>
+		
+		<script type="text/javascript">
+			var a1 = document.querySelector('audio')
+			//自动播放
+			a1.autoplay = true;
+			//静音
+//			a1.muted = true;
+			document.querySelector('.play').onclick = function(){
+//				a1.play()
+    			console.log(123)
+				if (a1.paused) {
+					a1.play()
+				} else{
+					a1.pause()
+				}
+			}
+			document.querySelector('.fuge').onclick = function(){
+				a1.currentTime = 30
+				a1.play()
+			}
+			
+			//静音
+			document.querySelector('.muted').onclick = function(){
+//				a1.muted = true
+				if (a1.muted) {
+					a1.muted = false
+				} else{
+					a1.muted = true
+				}
+			}
+			
+			
+			
+			
+		</script>-->
+		
+		<!--视频播放-->
+		<!--<video width="400" height="" src="img/gaoxiaoshipin.mp4" controls="controls" muted="muted"></video>-->
+		<!--自动播放-->
+		<video width="400" height="500" src="img/gaoxiaoshipin.mp4" controls="controls" autoplay="autoplay" ></video>
+		
+		
+	</body>
+</html>
